@@ -268,8 +268,9 @@ footer.container{
 
 
 footer .para {
-   line-height: 25px;
-
+  flex-basis: 100%;
+  align-self: center;
+}
 span{
     color:rgb(236, 164, 55) ;
 }
