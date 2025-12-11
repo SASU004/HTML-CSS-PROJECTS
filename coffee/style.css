@@ -150,7 +150,126 @@ flex-wrap: wrap;
 margin: 10rem;
 
 }
+
+
 .img2{
  width:400px;
  height: 400px;
+}
+.title-two{
+    font-size: 3rem;
+    color:white;
+    font-family: sans-serif;
+}
+
+
+.content-section p{
+    max-width:500px;
+    color: white;
+    margin-top: 20px;
+
+}
+
+
+.products{
+    margin-top: 5rem;
+    color: white;
+}
+
+.title3{
+    font-size: 4rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    margin-left: 10rem;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.card{
+    border: 2px solid rgb(236, 164, 55);
+    padding:0 20px;
+    height: 400px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4rem;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+.card-img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+
+}
+
+
+
+.card1{
+    background: url(images/1.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.card2{
+    background: url(images/2.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.card3{
+    background: url(images/3.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.card-title{
+    color: white ;
+    font-family: sans-serif;
+    margin-top: 200px;
+}
+
+.items{
+    margin: 20px;
+}
+
+
+footer{
+    height: 50vh;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;
+}
+
+footer.container{
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+
+
+}
+
+
+footer .para {
+   line-height: 25px;
+
+span{
+    color:rgb(236, 164, 55) ;
 }
