@@ -141,3 +141,16 @@ border-bottom: 1px solid white;
     cursor: pointer;
     font-weight: bold;
 }
+
+.coffee-container{
+display: flex;
+justify-content: space-around;
+align-items:center;
+flex-wrap: wrap;
+margin: 10rem;
+
+}
+.img2{
+ width:400px;
+ height: 400px;
+}
