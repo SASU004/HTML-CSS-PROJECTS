@@ -86,7 +86,7 @@ border-bottom: 1px solid white;
    margin-top: 15%d;
    display: flex;
    justify-content: space-around;
-    align-items: center;
+   align-items: center;
 }
 
 
@@ -114,7 +114,7 @@ border-bottom: 1px solid white;
 
 .line{
     width:100px;
-    height: 100px;
+    height: 2px;
     transform: translateX(-120px);
     color: white;
 }
@@ -124,4 +124,20 @@ border-bottom: 1px solid white;
     max-width: 500px;
     margin: 20px 0;
     color: white;
+}
+.section-content p{
+    max-width: 500px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 20px 0;;
+}
+
+.learn-btn {
+    background-color: rgb(236, 164, 55);
+    padding: 10px 30px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
 }
