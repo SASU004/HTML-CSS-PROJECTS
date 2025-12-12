@@ -258,7 +258,7 @@ footer{
     align-content: center;
 }
 
-footer.container{
+footer .container{
     margin: 20px;
     max-width: 300px;
     text-align: center;
@@ -266,11 +266,73 @@ footer.container{
 
 }
 
-
-footer .para {
-  flex-basis: 100%;
-  align-self: center;
+footer p{
+    line-height: 25px;
 }
+
+
 span{
     color:rgb(236, 164, 55) ;
 }
+
+.para{
+ color: white;
+text-align: center;
+margin-top: 30px;
+width: 100%;
+}
+
+
+
+
+
+
+/* media queries - responsive  */
+
+@media only screen and(max-width: 768px){
+.main-heading,.primary-heading{
+    font-size: 2.5rem;
+
+}
+
+#our-story{
+    text-align: center;
+}
+#our-story.title{
+    transform: translateX(50px);
+}
+#our-story.line{
+    display: none;
+}
+
+.content-section{
+    text-align: center;
+
+}
+
+#our-story .img-container .img{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.coffee-container .img-container{
+    margin-top: 5rem;
+    width: 50%;
+}
+
+.title{
+    margin: 0 auto;
+}
+.title-two{
+    margin: 0 auto;
+}
+
+.title3{
+   display: none;
+    
+}
+.para{
+    display: none;
+}
+} 
