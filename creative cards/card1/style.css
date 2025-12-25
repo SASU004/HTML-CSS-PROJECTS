@@ -19,14 +19,21 @@ body{
     content: "";
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom:5px;
     height: 100%;
     width: 100%;
-    background-color: violet;
+    background: violet;
     transition: 1s;
     z-index: 1;
 }
 
-.card-container:hover::before{
- bottom: 0;
+.card-container:hover:before{
+    bottom: 0;
+}
+
+.content{
+    position: relative;
+    transition: 1s;
+    color: black;
+    z-index: 2;
 }
